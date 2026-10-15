@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Git Practice Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background: #f0f4f8;
+            padding: 80px 20px;
+        }
+
+        .card {
+            background: white;
+            max-width: 450px;
+            margin: auto;
+            padding: 30px;
+            border-radius: 12px;
+        }
+
+        h1 {
+            color: #2563eb;
+        }
+
+        button {
+            background: #2563eb;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>My First Git Project</h1>
+        <p>I am learning Git and GitHub!</p>
+        <button onclick="showMessage()">Click Me</button>
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("result").textContent =
+                "Hello! My code is working successfully.";
+        }
+    </script>
+</body>
+</html>
